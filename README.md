@@ -5,8 +5,6 @@ A full-stack web app that connects to your Spotify account to surface listening 
 ## Features
 
 - **Stats Dashboard** — Top tracks, artists, and genres across 4 weeks / 6 months / all time
-- **Listening Profile** — Audio feature breakdown (energy, valence, danceability, acousticness)
-- **Discovery Engine** — AI-generated recommendations seeded from your taste fingerprint, pushed as a Spotify playlist
 - **Wrapped Card** — Shareable summary of your listening year
 
 ## Tech Stack
@@ -25,15 +23,15 @@ spotify-insights/
 ├── backend/          # FastAPI Python backend
 │   ├── app/
 │   │   ├── main.py
-│   │   ├── routers/  # auth, stats, discovery, wrapped
+│   │   ├── routers/  # auth, stats, wrapped
 │   │   ├── services/ # spotify_client, recommendations
 │   │   └── models/   # pydantic response models
 │   └── requirements.txt
 ├── frontend/         # React + TypeScript frontend
 │   ├── src/
-│   │   ├── pages/    # Home, Dashboard, Discovery, Wrapped
+│   │   ├── pages/    # Home, Dashboard, Wrapped
 │   │   ├── components/
-│   │   ├── hooks/    # useSpotify, useStats, useDiscovery
+│   │   ├── hooks/    # useSpotify, useStats
 │   │   └── lib/      # api client, auth utils
 │   └── package.json
 └── docs/             # API docs, setup guides
