@@ -41,5 +41,4 @@ spotify-insights/
 
 ## Links
 - Live Demo: https://spotify-insights-app-nu.vercel.app
-- GitHub: https://github.com/ethan-holley/spotify-insights-app
 
