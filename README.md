@@ -2,6 +2,8 @@
 
 A full-stack web app that connects to your Spotify account to surface listening stats, generate a personalized "Wrapped" dashboard, and recommend new music based on your taste profile.
 
+Live demo uses Spotify OAuth. Public access may require the user to be added as a Spotify test user while the app is in Development Mode.
+
 ## Features
 
 - **Stats Dashboard** — Top tracks, artists, and genres across 4 weeks / 6 months / all time
