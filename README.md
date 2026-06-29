@@ -1,6 +1,6 @@
 # Spotify Insights
 
-A full-stack web app that connects to your Spotify account to surface listening stats, generate a personalized "Wrapped" dashboard, and recommend new music based on your taste profile.
+A full-stack web app that connects to your Spotify account to surface listening stats and generate a personalized "Wrapped" dashboard.
 
 Live demo uses Spotify OAuth. Public access may require the user to be added as a Spotify test user while the app is in Development Mode.
 
