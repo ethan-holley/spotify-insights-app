@@ -39,16 +39,9 @@ spotify-insights/
 └── docs/             # API docs, setup guides
 ```
 
-## Getting Started
-
-See [docs/setup.md](./docs/setup.md) for full setup instructions.
-
-Quick start:
-```bash
-# Backend
-cd backend && pip install -r requirements.txt
-uvicorn app.main:app --reload
-
+## Links
+Live Demo: https://spotify-insights-app-nu.vercel.app
+GitHub: https://github.com/ethan-holley/spotify-insights-app
 # Frontend
 cd frontend && npm install && npm run dev
 ```
